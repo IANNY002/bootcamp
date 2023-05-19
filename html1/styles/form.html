@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Philippine Online Voting</h1>
+
+    <form>
+
+        <label for="first_name">First name:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="ex. Ian" />
+
+        <label for="last_name">Last name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="ex. Purificacion" />
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" placeholder="ex. ianpurificacion@gmail.com" />
+
+        <input type="date" />
+
+        <input type="number" />
+
+        $0.99<input type="range" min="$0.99" step="1"
+            value="0" />$99999999999999999999999999999999999999999999999999999999999999999999999<br />
+
+        <label for="province">Province:</label>
+        <select name="province" id="province" name="province">
+            <option value="">--Please select a province--</option>
+            <option value="quezon_province">Quezon Province</option>
+            <option value="batangas">Batangas</option>
+            <option value="laguna">Laguna</option>
+            <option value="cavite">Cavite</option>
+            <option value="quezon_city">Quezon City</option>
+        </select>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" style="width: 300px" placeholder="at least 8 characters"
+            required />
+        <label for="con_password">Confirm password:</label>
+        <input type="password" id="con_password" name="con_password" style="width: 300px" required />
+        <label for="profile_pic">Upload profile pic:</label>
+        <input type="file" name="profile_pic" accept="image/*" />
+        <label for="comments">Comments and suggestions:</label>
+        <textarea id="comments" name="comments"
+            placeholder="Help us improve our services by providing us with suggestions!" style="width: 400px"
+            rows="10"></textarea>
+
+        <h2>Senators</h2>
+        <input type="checkbox" name="bong_revilla" />Bong Revilla<br />
+        <input type="checkbox" name="allan_cayetano" />Allan Cayetano<br />
+        <input type="checkbox" name="larry_gadon" />Larry Gadon <br />
+        <input type="checkbox" name="riza_hontiveros" />Riza Hontiveros<br />
+        <input type="checkbox" name="robin_padilla" />Robin Padilla<br />
+
+        <h2>Presidents</h2>
+        <input type="radio" name="presidents" value="bong_marcos" />Ferdinand Marcos Jr.<br />
+        <input type="radio" name="presidents" value="manny_pacquiao" />Manny "Pacman" Pacquiao<br />
+        <input type="radio" name="presidents" value="leni_robredo" />Leni Robredo<br />
+        <input type="radio" name="presidents" value="rastaman" />Rastaman<br />
+
+        <input type="submit" value="Submit Vote" />
+
+
+    </form>
+</body>
+
+</html>

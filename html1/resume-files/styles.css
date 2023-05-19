@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid rgb(70, 130, 180);
+}
+
+td {
+    background-color: rgb(70, 130, 180);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    padding: 5px 50px 10px 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 130, 180);
+    font-size: 150%;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#ministries {
+
+    text-align: center;
+    color: rgb(70, 130, 180);
+
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -2px;
+}
+
+#theniheard {
+    text-align: center;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+#andisaid {
+    text-align: center;
+    margin-top: 4px;
+    letter-spacing: -1px;
+    margin-bottom: 6px;
+}
+
+#pastorpic {
+    position: absolute;
+    top: 340px;
+    left: 521px;
+}
+
+#pastorjpg {
+    float: left;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+#free {
+
+    vertical-align: top;
+    margin-right: 1px margin-bottom:0px;
+    margin-top: 1px;
+    color: rgb(70, 130, 180);
+    font-size: 152%;
+}
+
+
+
+#ourhplease {
+    margin-top: 0px
+}
+
+#shn {
+    margin-bottom: 100px;
+    color: rgb(255, 0, 216);
+    font-size: 125%;
+}
+
+
+
+#ul {
+    text-align: center;
+    font-size: 110%;
+    letter-spacing: -1px;
+}
+
+#uli {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#cross1,
+#cross2 {
+    width: 130px;
+    height: auto;
+    position: relative;
+    margin-block: 30px;
+
+}
+
+#cross1 {
+    text-align: right;
+    top: -200px;
+    left: -50px;
+
+}
+
+#cross2 {
+    text-align: right;
+    top: -200px;
+    left: -50px;
+
+}
+
+
+
+
+#footer {
+    position: absolute;
+    top: 840px;
+    left: 0px;
+    bottom: 10px;
+    right: 0px;
+    text-align: center;
+}
+
+#eps {
+    color: rgb(160, 160, 160);
+    margin-top: 152px;
+    margin-right: 0px;
+}
+
+#pctb {
+    color: rgb(160, 160, 160);
+}
+
+#footerp {
+    color: rgb(160, 160, 160);
+    margin-right: 0px;
+    margin-left: 0px;
+}

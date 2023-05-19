@@ -1,0 +1,230 @@
+#body {
+    margin: 0px;
+    background-image: url("https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Tahoma;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 139);
+}
+
+#churchlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+
+#ministries {
+
+    text-align: center;
+    color: rgb(70, 130, 180);
+    font-size: 400%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#theniheard {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 120%;
+}
+
+#andisaid {
+    text-align: center;
+    margin-top: 4px;
+    font-size: 120%;
+    margin-bottom: 6px;
+}
+
+#pastorpic {
+    position: absolute;
+    top: 340px;
+    left: 521px;
+}
+
+#pastorjpg {
+    float: left;
+    margin-right: 10px;
+}
+
+#freehb {
+
+    vertical-align: top;
+    margin-right: 1px margin-bottom:0px;
+    margin-top: 1px;
+    color: rgb(70, 130, 180);
+    font-size: 153%;
+}
+
+#free {
+    font-size: 115%;
+}
+
+#ourhplease {
+    margin-top: 0px
+}
+
+.savehn {
+    margin-bottom: 100px;
+    color: rgb(0, 0, 139);
+    font-size: 125%;
+
+}
+
+.savehn:link {
+    color: blue;
+}
+
+.savehn:visited {
+    color: orange;
+}
+
+.savehn:hover {
+    color: magenta;
+}
+
+.savehn:active {
+    color: lime;
+}
+
+#cross1 {
+    position: absolute;
+    top: 380px;
+    left: 751px;
+}
+
+#cross2 {
+    position: absolute;
+    top: 380px;
+    right: 751px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+
+
+}
+
+table,
+th,
+td {
+    border: 3px dotted black;
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: rgb(255, 200, 100);
+    transition: background-color 0.3s ease;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+#home-slide-1 {
+    width: 1000px auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+#footer {
+    position: absolute;
+    top: 540px;
+    left: 0px;
+    bottom: 10px;
+    right: 0px;
+    text-align: center;
+}
+
+#eps {
+    color: rgb(160, 160, 160);
+    margin-top: 452px;
+    margin-right: 0px;
+
+}
+
+#pctb {
+    color: rgb(160, 160, 160);
+}
+
+
+#footerp {
+    color: rgb(160, 160, 160);
+    margin-right: 0px;
+    margin-left: 0px;
+}

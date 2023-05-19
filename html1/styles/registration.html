@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+    <style>
+        label,
+        input {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        label {
+            width: 155px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <form>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/ISCP_Logo.png" width="250" /><br />
+
+        <iframe width="440" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <h2>Basic information</h2>
+
+        <label for="first_name">First name:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="ex. Ian" required /><br />
+
+        <label for="last_name">Last name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="ex. Purificacion" required /><br />
+
+        <label for="place_of_birth">Place of Birth:</label>
+        <input type="text" id="place_of_birth" placeholder="ex. St. Luke Medical Center" required /><br />
+
+        <label for="birth_date">Birthdate:</label>
+        <input type="date" required><br />
+
+        <label for="civil_status">Civil Status:</label>
+        <select id="civil_status" name="civil_status" required>
+            <option value="">--Choose one--</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option>
+        </select><br />
+
+
+        <label for="gender">Gender:</label><br />
+        <input type="radio" name="gender" value="male" />male<br />
+        <input type="radio" name="gender" value="female" />female<br />
+        <input type="radio" name="gender" value="other" />other<br />
+
+        <label for="mother_maiden_name">Mother's maiden name:</label>
+        <input type="text" id="mother_maiden_name" placeholder="ex. Jinkee Hamora" required /><br />
+
+        <label for="father_name">Father's name:</label>
+        <input type="text" id="father_name" placeholder="ex. Manny Pacquiao" required /><br />
+
+        <h2>Contact information</h2>
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" placeholder="ex. ianpurificacion@gmail.com" required /><br />
+
+        <label for="number">Contact number (mobile):</label>
+        <input type="number" placeholder="+639458642237" required><br />
+
+        <label for="number">Contact number (telephone):</label>
+        <input type="number" placeholder="53-8692-5847" required><br />
+
+        <h2>Address</h2>
+
+        <label for="number">Street number:</label>
+        <input type="number" placeholder="ex. 1235" required><br />
+
+        <label for="street_name">Street Name:</label>
+        <input type="text" id="street_name" placeholder="ex. Highway 52. Bonifacio Avenue " required /><br />
+
+        <label for="barangay">Barangay:</label>
+        <input type="text" id="barangay" placeholder="lankaan" required /><br />
+
+
+        <label for="city">City/Town:</label>
+        <select name="city" id="city" name="city" placeholder="ex. Tondo" required>
+            <option value="">--Please select a city--</option>
+            <option value="lucena_city">Lucena City</option>
+            <option value="bacoor">Bacoor</option>
+            <option value="san_pablo">San Pablo</option>
+            <option value="carmona">Carmona</option>
+            <option value="candelaria">Candelaria</option>
+            <option value="lucban">Lucban</option>
+            <option value="caloocan">Caloocan</option>
+        </select><br />
+
+
+        <label for="province">Province:</label>
+        <select name="province" id="province" name="province" required>
+            <option value="">--Please select a province--</option>
+            <option value="quezon_province">Quezon Province</option>
+            <option value="batangas">Batangas</option>
+            <option value="laguna">Laguna</option>
+            <option value="cavite">Cavite</option>
+            <option value="quezon_city">Quezon City</option>
+            <option value="rizal">Rizal</option>
+            <option value="baguio">Baguio</option>
+        </select><br />
+
+        <label for="full_address">Full address:</label>
+        <input type="text" id="full_address" placeholder="ex. 1235, Tondo Manila" required /><br />
+
+        <h2>Government information</h2>
+
+        <label for="sss_id">SSS ID:</label>
+        <input type="text" name="sss_id" required /><br />
+
+        <label for="pag_ibig_id">Pag-Ibig ID:</label>
+        <input type="text" name="pag_ibig_id" required /><br />
+
+        <label for="philhealth_id">PhilHealth ID:</label>
+        <input type="text" name="philhealth_id" required /><br />
+
+        <label for="2x2_pic">Upload 2x2 picture:</label>
+        <input type="file" name="2x2_pic" accept="image/*" required /><br />
+
+        <label for="gov_pic_id">Upload picture of government ID:</label>
+        <input type="file" name="gov_pic_id" accept="image/*" required /><br />
+
+        <h2>Account information</h2>
+
+        <label for="username">Username:</label>
+        <input type="email" placeholder="ex. akosihaha@gmail.com" required /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="atleast 8 characters" required><br />
+
+        <label for="con_password">Confirm password:</label>
+        <input type="password" id="con_password" name="con_password" style="width: 200px" required /><br />
+
+        <label for="prof_img">Upload profile image:</label>
+        <input type="file" name="prof_img" accept="image/*" required /><br />
+
+        <h2>Have you experienced any of the following in the last 30 days?</h2>
+
+        <input type="checkbox" name="coughing" />Coughing<br />
+        <input type="checkbox" name="fever" />Fever<br />
+        <input type="checkbox" name="headache" />Headache <br />
+        <input type="checkbox" name="common_cold" />Common cold<br />
+        <input type="checkbox" name="body_ache" />Body ache<br />
+        <input type="checkbox" name="sore_throat" />Sore throat <br />
+        <input type="checkbox" name="tiredness" />Tiredness<br />
+        <input type="checkbox" name="loss_of_smell" />Loss of smell<br />
+
+        <h2>Give a short description about yourself.</h2>
+
+
+        <textarea id="comments" name="comments" placeholder="Tell me more about yourself!" style="width: 400px"
+            rows="10"></textarea><br />
+
+        <input type="submit" value="Submit" />
+
+
+
+    </form>
+
+</body>
+
+</html>
